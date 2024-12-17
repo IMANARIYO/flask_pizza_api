@@ -52,7 +52,7 @@ class Signup(Resource):
             new_user.save()
             return new_user,HTTPStatus.CREATED
         except Exception as e:
-            raise Conflict(f'User {request.json.get('email')  } already exists')
+            raise Conflict(f'User {request.json.get('email')  } already existss')
 
        
 @auth_namespace.route('/login')
