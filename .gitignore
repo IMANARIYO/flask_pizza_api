@@ -2,6 +2,16 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.env
+/venv/
+.envs
+.env/
+venv/
+ENV/
+env/
+venv.bak/
+env.bak/
+*.egg-info/
 
 # C extensions
 *.so
