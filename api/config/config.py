@@ -18,7 +18,7 @@ class TestConfig(BaseConfig):
    TESTING=True
    SQLALCHEMY_TRACK_MODIFICATIONS= False
    SQLALCHEMY_ECHO=True
-   SQLALCHEMY_DATABASE_URI='sqlite://szd'
+   SQLALCHEMY_DATABASE_URI='sqlite://'
 class ProdConfig(BaseConfig):
     
     pass
